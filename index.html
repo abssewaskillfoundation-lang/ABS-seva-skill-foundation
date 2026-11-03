@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABS Seva Skill Foundation | Seva Hi Sankalp</title>
+<meta name="description" content="ABS Seva Skill Foundation (Azad Bharat Sankalp Seva Skill Foundation), a Section 8 Company. हर हाथ को हुनर, हर हुनर को रोज़गार।">
+<link rel="icon" href="image/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600&family=Tiro+Devanagari+Hindi&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+
+<!-- Meta Pixel ka base code yahan paste karein -->
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:#1F2A44;font-family:'Hind',sans-serif;line-height:1.7}
+img{max-width:100%}
+a{color:inherit}
+section{scroll-margin-top:84px}
+.w{max-width:1100px;margin:0 auto;padding-left:1.5rem;padding-right:1.5rem}
+.sec{padding-top:3rem;padding-bottom:3rem}
+.hi{font-family:'Tiro Devanagari Hindi',serif;font-weight:400}
+.h2{font-family:'Hind',sans-serif;font-weight:600;font-size:30px;color:#102A5C;line-height:1.3;margin:0}
+.sub{font-size:16px;color:#4A5878;margin:4px 0 24px;max-width:62ch}
+.btn{display:inline-flex;align-items:center;gap:8px;font:500 16px 'Hind',sans-serif;padding:10px 20px;border-radius:8px;text-decoration:none;cursor:pointer;border:1px solid #102A5C;background:#fff;color:#102A5C}
+.btn:hover{background:#F4F6FB}
+.btn-o{background:#F28C1E;color:#fff;border-color:#F28C1E}.btn-o:hover{background:#DD7A0E}
+.btn-w{background:transparent;color:#fff;border-color:#fff}.btn-w:hover{background:#1B3A78}
+.strip{display:flex;height:5px}.strip div{flex:1}
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #E3E7F0}
+.hdr{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;padding-top:10px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none}
+.brand img{width:54px;height:54px;object-fit:contain}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:4px 18px}
+nav a.nl{text-decoration:none;color:#4A5878;font-size:16px}
+nav a.nl:hover{color:#102A5C;text-decoration:underline}
+.chip{display:inline-block;font-size:14px;padding:4px 12px;border-radius:999px;border:1px solid #C9D0DE;background:#fff;color:#1F2A44;margin:0 6px 8px 0}
+.card{border-radius:12px;padding:18px 20px}
+.ic{width:42px;height:42px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:21px;flex:none}
+.grid{display:grid;gap:16px}
+.two{display:grid;gap:32px;align-items:center}
+.photo{display:block;width:100%;object-fit:cover;object-position:center 20%;background:#EAF0FB}
+.svc{background:#fff;border:1px solid #E3E7F0;display:flex;gap:14px}
+.svc h3{margin:0 0 4px;font-size:18px;font-weight:600;color:#102A5C;line-height:1.35}
+.svc p{margin:0;font-size:15px;color:#4A5878}
+.step{text-align:center}
+.step .n{width:58px;height:58px;border-radius:50%;background:#fff;color:#102A5C;font-size:22px;font-weight:600;display:flex;align-items:center;justify-content:center;margin:0 auto 8px}
+.step .t{font-size:19px;font-weight:600}
+.area i{font-size:28px}
+.area .t{font-size:19px;font-weight:600;margin-top:4px}
+.area .d{font-size:15px}
+.team{background:#fff;border:1px solid #E3E7F0;text-align:center}
+.team img{width:124px;height:124px;border-radius:50%;border:4px solid #F28C1E;object-fit:cover;object-position:center 20%;background:#EAF0FB;display:block;margin:0 auto 12px}
+.gal img{height:210px;border-radius:12px}
+.gal div{font-size:15px;color:#4A5878;margin-top:6px}
+.fl{font-size:15px;color:#4A5878;display:block;margin-bottom:4px}
+input,select{background:#fff;color:#1F2A44;border:1px solid #C9D0DE;border-radius:8px;height:46px;padding:0 12px;font:400 16px 'Hind',sans-serif;width:100%}
+.err{font-size:13px;color:#B42318;min-height:18px;margin-top:2px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #F28C1E;outline-offset:2px}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:32px;text-decoration:none}
+footer{background:#102A5C;color:#B9C7E6;font-size:15px}
+@media (min-width:780px){.hero{grid-template-columns:minmax(0,1fr) 320px}.about{grid-template-columns:280px minmax(0,1fr)}}
+@media (max-width:600px){.w{padding-left:1rem;padding-right:1rem}.big{font-size:34px!important}.h2{font-size:26px}nav a.nl{display:none}.brand img{width:44px;height:44px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="strip"><div style="background:#F28C1E"></div><div style="background:#fff"></div><div style="background:#138808"></div></div>
+
+<header>
+  <div class="w hdr">
+    <a class="brand" href="#top">
+      <img src="image/logo.png" alt="ABS Seva Skill Foundation logo">
+      <div>
+        <div style="font-size:19px;font-weight:600;color:#102A5C;line-height:1.2">ABS Seva Skill Foundation</div>
+        <div class="hi" style="font-size:15px;color:#A85A08">सेवा ही संकल्प</div>
+      </div>
+    </a>
+    <nav aria-label="Main">
+      <a class="nl" href="#about">About</a>
+      <a class="nl" href="#services">Services</a>
+      <a class="nl" href="#model">Our Model</a>
+      <a class="nl" href="#women">Women</a>
+      <a class="nl" href="#team">Team</a>
+      <a class="btn btn-o" href="#join" style="padding:7px 16px">Join Us</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO: Founder -->
+<section style="background:#102A5C;color:#fff">
+  <div class="w sec two hero">
+    <div>
+      <div style="margin-bottom:14px">
+        <span class="chip" style="background:#1B3A78;border-color:#2C4C8C;color:#DCE5F7">Section 8 Company</span>
+        <span class="chip" style="background:#1B3A78;border-color:#2C4C8C;color:#DCE5F7">Recognized by Ministry of Corporate Affairs, Govt. of India</span>
+      </div>
+      <h1 class="hi big" style="font-size:48px;line-height:1.3;color:#fff;margin:0">हर हाथ को हुनर,<br><span style="color:#F7A84A">हर हुनर को रोज़गार</span></h1>
+      <p style="font-size:19px;color:#DCE5F7;margin:16px 0 6px">पढ़ेगा युवा, बढ़ेगा ज़िला। रोज़गार अब ब्लॉक में ही।</p>
+      <p style="font-size:16px;color:#B9C7E6;margin:0 0 24px;max-width:52ch">ग्रामीण भारत के युवाओं और महिलाओं को ब्लॉक स्तर पर ही स्किल ट्रेनिंग, लोन सहायता और मार्केट से जोड़ना।</p>
+      <div style="display:flex;flex-wrap:wrap;gap:10px">
+        <a class="btn btn-o" href="#join"><i class="ti ti-user-plus"></i>Become a Member</a>
+        <a class="btn btn-w" href="tel:+917525995699"><i class="ti ti-phone"></i>Call  7525995699</a>
+      </div>
+    </div>
+    <div>
+      <img class="photo" src="image/vimlesh.png" alt="Vimlesh Kumar, Founder and Director" style="height:360px;border-radius:16px;border:4px solid #F28C1E;background:#1B3A78">
+      <div style="background:#F28C1E;color:#fff;border-radius:10px;padding:8px 12px;margin:-26px 18px 0;position:relative;text-align:center">
+        <div style="font-size:19px;font-weight:600;line-height:1.2">Vimlesh Kumar</div>
+        <div style="font-size:14px">Founder and Director</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CREDENTIALS -->
+<div style="background:#FFF3E4">
+  <div class="w grid" style="grid-template-columns:repeat(auto-fit,minmax(170px,1fr));padding-top:18px;padding-bottom:18px">
+    <div style="display:flex;gap:10px;align-items:center"><div class="ic" style="background:#fff;color:#A85A08"><i class="ti ti-building-bank"></i></div><div style="line-height:1.3"><div style="font-weight:600;color:#7A4106">Section 8 Company</div><div style="font-size:14px;color:#6A4A22">Registered with MCA</div></div></div>
+    <div style="display:flex;gap:10px;align-items:center"><div class="ic" style="background:#fff;color:#A85A08"><i class="ti ti-calendar"></i></div><div style="line-height:1.3"><div style="font-weight:600;color:#7A4106">22 Sept 2026</div><div style="font-size:14px;color:#6A4A22">Incorporated</div></div></div>
+    <div style="display:flex;gap:10px;align-items:center"><div class="ic" style="background:#fff;color:#A85A08"><i class="ti ti-list-check"></i></div><div style="line-height:1.3"><div style="font-weight:600;color:#7A4106">10 Services</div><div style="font-size:14px;color:#6A4A22">As per MOA clause 3(a)</div></div></div>
+    <div style="display:flex;gap:10px;align-items:center"><div class="ic" style="background:#fff;color:#A85A08"><i class="ti ti-users"></i></div><div style="line-height:1.3"><div style="font-weight:600;color:#7A4106">Age 18–35</div><div style="font-size:14px;color:#6A4A22">Youth beneficiaries</div></div></div>
+  </div>
+</div>
+
+<!-- ABOUT FOUNDER -->
+<section id="about">
+  <div class="w sec two about" style="align-items:start">
+    <img class="photo" src="image/vimlesh.png" alt="Vimlesh Kumar" style="height:340px;border-radius:14px">
+    <div>
+      <h2 class="h2">About the Founder</h2>
+      <div style="font-size:18px;color:#A85A08;margin:2px 0 14px">Vimlesh Kumar, Founder and Director</div>
+      <p style="margin:0 0 12px;font-size:17px;max-width:62ch">विमलेश कुमार ABS सेवा स्किल फाउंडेशन (आज़ाद भारत संकल्प सेवा स्किल फाउंडेशन) के संस्थापक हैं। फाउंडेशन की स्थापना 22 सितंबर 2026 को सेक्शन 8 कंपनी के रूप में हुई, जिसका उद्देश्य कौशल विकास और निःस्वार्थ सेवा के माध्यम से आत्मनिर्भर भारत का निर्माण करना है।</p>
+      <p style="margin:0 0 18px;font-size:17px;max-width:62ch">उनके साथ सह-निदेशक सुश्री लक्ष्मी और श्री विकास सिंह जुड़े हैं, जो युवाओं को रोज़गार योग्य कौशल देने, आत्मनिर्भरता को बढ़ावा देने और समाज के वंचित वर्गों की सेवा करने का साझा संकल्प रखते हैं।</p>
+      <div style="border:1px solid #F7C98F;background:#FFF3E4;border-radius:10px;padding:12px 18px">
+        <div style="font-size:14px;color:#7A4106;font-weight:500">Our Mission</div>
+        <div class="hi" style="font-size:22px;color:#7A4106">“हर हाथ को हुनर, हर हुनर को रोज़गार”</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISION / MISSION / PRINCIPLE -->
+<section>
+  <div class="w" style="padding-bottom:3rem">
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
+      <div class="card" style="background:#EAF0FB;border:1px solid #C8D6F0"><div style="display:flex;gap:8px;align-items:center;color:#1B3A78;font-weight:600;font-size:18px"><i class="ti ti-eye" style="font-size:22px"></i>Vision</div><p style="margin:8px 0 0;font-size:17px;color:#1B3A78">ग्रामीण युवाओं का पलायन रोककर उन्हें ब्लॉक स्तर पर आत्मनिर्भर बनाना।</p></div>
+      <div class="card" style="background:#FFF3E4;border:1px solid #F7C98F"><div style="display:flex;gap:8px;align-items:center;color:#7A4106;font-weight:600;font-size:18px"><i class="ti ti-target" style="font-size:22px"></i>Mission</div><p style="margin:8px 0 0;font-size:17px;color:#7A4106">ITI, हाईस्कूल और इंटर पास युवाओं को कौशल, लोन और मार्केट से जोड़कर रोज़गार देना।</p></div>
+      <div class="card" style="background:#EAF6EC;border:1px solid #BFE0C6"><div style="display:flex;gap:8px;align-items:center;color:#1E6B34;font-weight:600;font-size:18px"><i class="ti ti-heart-handshake" style="font-size:22px"></i>First Principle</div><p style="margin:8px 0 0;font-size:17px;color:#1E6B34">बिना किसी जाति, धर्म, वर्ग या लिंग भेदभाव के, सभी युवाओं के लिए समान अवसर।</p></div>
+    </div>
+    <div style="margin-top:20px;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px">
+      <span style="font-weight:600;color:#102A5C;margin-right:4px">Target Beneficiaries:</span>
+      <span class="chip">18–35 वर्ष</span>
+      <span class="chip">हाईस्कूल / इंटर / ITI / ग्रेजुएट</span>
+      <span class="chip" style="background:#EAF6EC;border-color:#BFE0C6;color:#1E6B34">BPL / SC / ST / OBC / महिलाओं को प्राथमिकता</span>
+      <span class="chip">ड्रॉपआउट भी शामिल</span>
+    </div>
+  </div>
+</section>
+
+<!-- 10 SERVICES -->
+<section id="services" style="background:#F4F6FB">
+  <div class="w sec">
+    <h2 class="h2">Our 10 Core Services</h2>
+    <p class="sub">मेमोरेंडम ऑफ एसोसिएशन (MOA) क्लॉज़ 3(a) के अनुसार हमारी 10 प्रमुख प्रतिबद्धताएँ।</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+      <div class="card svc"><div class="ic" style="background:#EAF0FB;color:#1B3A78"><i class="ti ti-school"></i></div><div><h3>1. Education and Skill Development</h3><p>गरीब और वंचित बच्चों के लिए निःशुल्क शिक्षा, डिजिटल लाइब्रेरी और स्मार्ट क्लासरूम। युवाओं के लिए कंप्यूटर, इलेक्ट्रिकल, सिलाई, ब्यूटी पार्लर और मोबाइल रिपेयरिंग के स्किल डेवलपमेंट सेंटर। PMKVY और स्किल इंडिया के तहत ट्रेनिंग पार्टनर, तथा "हर घर रोज़गार" मिशन के तहत रोज़गार मेले।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#FCEDEF;color:#8E2A3B"><i class="ti ti-gender-female"></i></div><div><h3>2. Women Empowerment and Welfare of the Poor</h3><p>महिलाओं के लिए स्वयं सहायता समूह (SHG), कानूनी सहायता, दहेज विरोधी अभियान, गरीब बेटियों के विवाह में सहयोग, तथा महिला आश्रम और वर्किंग वुमन हॉस्टल की स्थापना।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#FFF3E4;color:#A85A08"><i class="ti ti-heart-handshake"></i></div><div><h3>3. General Social Welfare</h3><p>भोजन, कपड़े और कंबल वितरण के माध्यम से गरीबी, भूख और बेरोज़गारी का उन्मूलन। SC/ST/OBC समुदायों का उत्थान, तथा नशा, बाल श्रम और बाल विवाह के विरुद्ध जागरूकता अभियान।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#EAF6EC;color:#1E6B34"><i class="ti ti-plant-2"></i></div><div><h3>4. Agriculture and Environment Protection</h3><p>जैविक एवं गौ-आधारित प्राकृतिक खेती, बीज बैंक, किसान पाठशाला, वृक्षारोपण, स्वच्छता अभियान और जल संरक्षण कार्यक्रम।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#FCEDEF;color:#8E2A3B"><i class="ti ti-stethoscope"></i></div><div><h3>5. Healthcare Services</h3><p>पंजीकृत डॉक्टरों के साथ निःशुल्क स्वास्थ्य जाँच, नेत्र जाँच और रक्तदान शिविर। कुपोषण, पोषण और मासिक धर्म स्वच्छता पर जागरूकता कार्यक्रम।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#EAF0FB;color:#1B3A78"><i class="ti ti-mood-kid"></i></div><div><h3>6. Child Welfare</h3><p>बाल संस्कार केंद्र, JJ एक्ट 2015 के अनुसार अनाथालय, तथा बच्चों और अभिभावकों के लिए गुड टच-बैड टच और POCSO एक्ट पर जागरूकता।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#EAF6EC;color:#1E6B34"><i class="ti ti-palette"></i></div><div><h3>7. Art, Culture, Sports and Research</h3><p>भारतीय लोक कला और हस्तशिल्प को बाज़ार से जोड़ना, कबड्डी, कुश्ती और क्रिकेट के लिए ग्रामीण खेल अकादमी, तथा युवाओं के लिए साइंस लैब और इनोवेशन सेंटर।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#FFF3E4;color:#A85A08"><i class="ti ti-lifebuoy"></i></div><div><h3>8. Charitable and Disaster Relief Services</h3><p>अन्नक्षेत्र, गौशाला और वृद्धाश्रम का संचालन। बाढ़, सूखा और महामारी जैसी आपदाओं में तुरंत राहत और पुनर्वास कार्य।</p></div></div>
+      <div class="card svc" style="background:#FFF3E4;border:2px solid #F28C1E"><div class="ic" style="background:#F28C1E;color:#fff"><i class="ti ti-needle-thread"></i></div><div><h3>9. Har Ghar Rozgar – Livelihood Mission <span style="font-size:12px;font-weight:500;background:#F28C1E;color:#fff;padding:2px 8px;border-radius:6px;vertical-align:2px">Flagship</span></h3><p style="color:#6A4A22">सिलाई, कढ़ाई, अचार-पापड़, अगरबत्ती और हस्तशिल्प जैसे स्थायी रोज़गार से महिलाओं और युवाओं को घर बैठे आत्मनिर्भर बनाना।</p></div></div>
+      <div class="card svc"><div class="ic" style="background:#EAF0FB;color:#1B3A78"><i class="ti ti-briefcase"></i></div><div><h3>10. Portal, Tender and Manpower Services</h3><p>UP सेवायोजन (रोज़गार संगम), NCS और GeM पोर्टल पर रजिस्ट्रेशन में सहायता, सरकारी टेंडर प्रक्रिया, तथा गरीब युवाओं को प्राथमिकता देते हुए मैनपावर सप्लाई।</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MODEL -->
+<section id="model" style="background:#102A5C;color:#fff">
+  <div class="w sec">
+    <h2 class="h2" style="color:#fff">Our Model: 4 Steps</h2>
+    <p class="sub" style="color:#B9C7E6">गाँव के सर्वे से स्वरोज़गार तक।</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+      <div class="step"><div class="n">1</div><div class="t">Survey</div><div style="font-size:15px;color:#B9C7E6">गाँव / ब्लॉक स्तर पर</div></div>
+      <div class="step"><div class="n">2</div><div class="t">15-Day Training</div><div style="font-size:15px;color:#B9C7E6">स्किल + प्रैक्टिकल</div></div>
+      <div class="step"><div class="n">3</div><div class="t">Loan and Setup</div><div style="font-size:15px;color:#B9C7E6">मशीन + यूनिट</div></div>
+      <div class="step"><div class="n" style="background:#F28C1E;color:#fff">4</div><div class="t">Market Connection</div><div style="font-size:15px;color:#B9C7E6">स्वरोज़गार की शुरुआत</div></div>
+    </div>
+    <div style="margin-top:26px;border-top:1px solid #2C4C8C;padding-top:16px;display:flex;gap:10px;align-items:center">
+      <i class="ti ti-circle-check" style="font-size:24px;color:#F7A84A"></i>
+      <span style="font-size:18px">ट्रेनिंग के बाद सीधा मार्केट कनेक्शन। पलायन नहीं, स्वरोज़गार।</span>
+    </div>
+  </div>
+</section>
+
+<!-- 5 AREAS -->
+<section>
+  <div class="w sec">
+    <h2 class="h2">5 Livelihood Areas</h2>
+    <p class="sub">इन पाँच क्षेत्रों में हम युवाओं को ट्रेनिंग देकर कमाई शुरू करने में मदद करते हैं।</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+      <div class="card area" style="background:#FFF3E4;border:1px solid #F7C98F"><i class="ti ti-building-factory-2" style="color:#A85A08"></i><div class="t" style="color:#7A4106">Cottage Industry Hub</div><div class="d" style="color:#6A4A22">अगरबत्ती, पेपर प्लेट, मसाला, सिलाई, दोना-पत्तल और साबुन बनाना।</div></div>
+      <div class="card area" style="background:#FFF8DC;border:1px solid #F1D98A"><i class="ti ti-sun" style="color:#8A6200"></i><div class="t" style="color:#6B4C00">Solar Entrepreneur</div><div class="d" style="color:#6B5420">PM सूर्य घर और PM-कुसुम योजनाओं से जोड़कर सोलर का काम।</div></div>
+      <div class="card area" style="background:#EAF0FB;border:1px solid #C8D6F0"><i class="ti ti-tool" style="color:#1B3A78"></i><div class="t" style="color:#1B3A78">Service Technician</div><div class="d" style="color:#3B4C70">मोबाइल, इलेक्ट्रिशियन, AC-फ्रिज रिपेयर और CSC।</div></div>
+      <div class="card area" style="background:#EAF6EC;border:1px solid #BFE0C6"><i class="ti ti-wheat" style="color:#1E6B34"></i><div class="t" style="color:#1E6B34">Agro Food Processing</div><div class="d" style="color:#34553D">तेल, आटा, दाल मिल और पशु आहार (ODOP)।</div></div>
+      <div class="card area" style="background:#FCEDEF;border:1px solid #F0C6CD"><i class="ti ti-heart" style="color:#8E2A3B"></i><div class="t" style="color:#8E2A3B">Social Development</div><div class="d" style="color:#6B3A44">नशा मुक्ति, डिजिटल साक्षरता और SHG महिला सशक्तिकरण।</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WOMEN -->
+
+<!-- WOMEN -->
+<style>
+  .ws-slider{position:relative;overflow:hidden;border-radius:14px;margin-bottom:18px;background:#000}
+  .ws-track{display:flex;transition:transform .6s ease}
+  .ws-slide{min-width:100%}
+  .ws-slide img{width:100%;height:340px;object-fit:cover;object-position:center;display:block}
+  .ws-btn{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.85);color:#7A4106;font-size:22px;cursor:pointer;z-index:2}
+  .ws-prev{left:10px}.ws-next{right:10px}
+  .ws-dots{position:absolute;bottom:10px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:2}
+  .ws-dot{width:10px;height:10px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.6);cursor:pointer}
+  .ws-dot.active{background:#fff;transform:scale(1.25)}
+  @media(max-width:600px){.ws-slide img{height:220px}}
+</style>
+
+<section id="women" style="background:#FFF3E4">
+  <div class="w sec">
+    <h2 class="h2" style="color:#7A4106">Women Empowerment</h2>
+    <p style="font-size:18px;color:#A85A08;margin:2px 0 20px">महिला को शिक्षा + हुनर + रोज़गार + सम्मान देना।</p>
+
+    <!-- SLIDER -->
+    <div class="ws-slider" id="wsSlider">
+      <div class="ws-track">
+        <div class="ws-slide"><img src="image/EmpoweredWomen.png"  alt="Women empowerment programme"></div>
+        <div class="ws-slide"><img src="image/EmpoweredWomen1.png" alt="Sewing training"></div>
+        <div class="ws-slide"><img src="image/EmpoweredWomen2.png" alt="Education for girls"></div>
+        <div class="ws-slide"><img src="image/EmpoweredWomen3.png" alt="Self-help group"></div>
+        <div class="ws-slide"><img src="image/EmpoweredWomen4.png" alt="Self-help group"></div>
+
+
+      </div>
+      <button class="ws-btn ws-prev" aria-label="Previous">&#10094;</button>
+      <button class="ws-btn ws-next" aria-label="Next">&#10095;</button>
+      <div class="ws-dots"></div>
+    </div>
+
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <!-- your 4 cards stay exactly the same -->
+    </div>
+    <div class="hi" style="text-align:center;font-size:26px;color:#102A5C;margin-top:24px">सशक्त महिला, सशक्त समाज, सशक्त भारत</div>
+  </div>
+</section>
+
+<script>
+(function(){
+  var s = document.getElementById('wsSlider');
+  var track = s.querySelector('.ws-track');
+  var slides = s.querySelectorAll('.ws-slide');
+  var dotsBox = s.querySelector('.ws-dots');
+  var i = 0, timer, startX = 0;
+
+  slides.forEach(function(_, n){
+    var d = document.createElement('button');
+    d.className = 'ws-dot';
+    d.setAttribute('aria-label', 'Slide ' + (n + 1));
+    d.onclick = function(){ go(n); restart(); };
+    dotsBox.appendChild(d);
+  });
+  var dots = dotsBox.children;
+
+  function go(n){
+    i = (n + slides.length) % slides.length;
+    track.style.transform = 'translateX(-' + (i * 100) + '%)';
+    for (var k = 0; k < dots.length; k++) dots[k].classList.toggle('active', k === i);
+  }
+  function start(){ timer = setInterval(function(){ go(i + 1); }, 4000); }
+  function stop(){ clearInterval(timer); }
+  function restart(){ stop(); start(); }
+
+  s.querySelector('.ws-prev').onclick = function(){ go(i - 1); restart(); };
+  s.querySelector('.ws-next').onclick = function(){ go(i + 1); restart(); };
+  s.addEventListener('mouseenter', stop);
+  s.addEventListener('mouseleave', start);
+
+  // swipe on mobile
+  s.addEventListener('touchstart', function(e){ startX = e.touches[0].clientX; stop(); }, {passive:true});
+  s.addEventListener('touchend', function(e){
+    var diff = e.changedTouches[0].clientX - startX;
+    if (Math.abs(diff) > 40) go(diff < 0 ? i + 1 : i - 1);
+    start();
+  });
+
+  go(0);
+  start();
+})();
+</script>
+
+
+
+
+<!-- <section id="women" style="background:#FFF3E4">
+  <div class="w sec">
+    <h2 class="h2" style="color:#7A4106">Women Empowerment</h2>
+    <p style="font-size:18px;color:#A85A08;margin:2px 0 20px">महिला को शिक्षा + हुनर + रोज़गार + सम्मान देना।</p>
+    <img class="photo" src="image/mahila.png" alt="Women empowerment programme" style="height:340px;border-radius:14px;margin-bottom:18px;object-position:center">
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <div class="card" style="background:#fff;border:1px solid #F7C98F"><div style="display:flex;gap:8px;align-items:center"><i class="ti ti-coin-rupee" style="font-size:24px;color:#A85A08"></i><span style="font-size:18px;font-weight:600;color:#102A5C">Economic Empowerment</span></div><div style="font-size:16px;color:#4A5878;margin-top:4px">सिलाई, ब्यूटी पार्लर और कुटीर उद्योग से खुद कमाना।</div></div>
+      <div class="card" style="background:#fff;border:1px solid #F7C98F"><div style="display:flex;gap:8px;align-items:center"><i class="ti ti-book" style="font-size:24px;color:#1B3A78"></i><span style="font-size:18px;font-weight:600;color:#102A5C">Educational Empowerment</span></div><div style="font-size:16px;color:#4A5878;margin-top:4px">हर बेटी को पढ़ने और आगे बढ़ने का मौका।</div></div>
+      <div class="card" style="background:#fff;border:1px solid #F7C98F"><div style="display:flex;gap:8px;align-items:center"><i class="ti ti-users-group" style="font-size:24px;color:#1E6B34"></i><span style="font-size:18px;font-weight:600;color:#102A5C">Social Empowerment</span></div><div style="font-size:16px;color:#4A5878;margin-top:4px">बराबरी का दर्जा और अपने फ़ैसले खुद लेना।</div></div>
+      <div class="card" style="background:#fff;border:1px solid #F7C98F"><div style="display:flex;gap:8px;align-items:center"><i class="ti ti-shield-heart" style="font-size:24px;color:#8E2A3B"></i><span style="font-size:18px;font-weight:600;color:#102A5C">Safety and Confidence</span></div><div style="font-size:16px;color:#4A5878;margin-top:4px">सुरक्षित महसूस करना और हक़ के लिए आवाज़ उठाना।</div></div>
+    </div>
+    <div class="hi" style="text-align:center;font-size:26px;color:#102A5C;margin-top:24px">सशक्त महिला, सशक्त समाज, सशक्त भारत</div>
+  </div>
+</section> -->
+
+<!-- SCHEMES -->
+<section>
+  <div class="w sec">
+    <h2 class="h2">Government Scheme Support</h2>
+    <p class="sub">हम पात्र युवाओं और महिलाओं को इन सरकारी योजनाओं में आवेदन करने में मदद करते हैं।</p>
+    <div>
+      <span class="chip">PMKVY 4.0</span><span class="chip">UPSDM</span><span class="chip">DDU-GKY</span><span class="chip">Mudra Loan</span><span class="chip">Mukhyamantri Yuva Udyami Yojana</span><span class="chip">PM Vishwakarma</span><span class="chip">ODOP</span><span class="chip">Stand-Up India</span><span class="chip">PM Surya Ghar</span><span class="chip">PM-KUSUM</span>
+    </div>
+    <p style="font-size:14px;color:#6B7690;margin:8px 0 0">सब्सिडी, लोन और पात्रता संबंधित सरकारी विभाग के नियमों के अनुसार होगी।</p>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<!-- <section style="padding-bottom:3rem">
+  <div class="w">
+    <h2 class="h2">Gallery</h2>
+    <p class="sub">हमारे अभियानों, ट्रेनिंग और शिविरों की झलकियाँ।</p>
+    <div class="grid gal" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <div><img class="photo" src="images/gallery-1.jpg" alt="Membership drive"><div>Membership Drive</div></div>
+      <div><img class="photo" src="images/gallery-2.jpg" alt="Skill training"><div>Skill Training</div></div>
+      <div><img class="photo" src="images/gallery-3.jpg" alt="Health camp"><div>Health Camp</div></div>
+      <div><img class="photo" src="images/gallery-4.jpg" alt="Job fair"><div>Job Fair</div></div>
+    </div>
+  </div>
+</section> -->
+
+<!-- TEAM -->
+<section id="team" style="background:#F4F6FB">
+  <div class="w sec">
+    <h2 class="h2">Our Team</h2>
+    <p class="sub">ABS सेवा स्किल फाउंडेशन के निदेशक।</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr))">
+      <div class="card team"><img src="image/vimlesh.png" alt="Vimlesh Kumar"><div style="font-size:19px;font-weight:600;color:#102A5C">Vimlesh Kumar</div><div style="font-size:15px;color:#A85A08">Founder and Director</div><p style="font-size:15px;color:#4A5878;margin:6px 0 0">आत्मनिर्भर भारत के संकल्प के साथ फाउंडेशन की स्थापना की।</p></div>
+      <div class="card team"><img src="image/laxmi.png" alt="Mrs. Laxmi"><div style="font-size:19px;font-weight:600;color:#102A5C">Mrs. Laxmi</div><div style="font-size:15px;color:#A85A08">Director</div><p style="font-size:15px;color:#4A5878;margin:6px 0 0">आत्मनिर्भर और कुशल भारत के निर्माण के लिए प्रतिबद्ध।</p></div>
+      <div class="card team"><img src="image/vikash.png" alt="Mr. Vikash Singh"><div style="font-size:19px;font-weight:600;color:#102A5C">Mr. Vikash Singh</div><div style="font-size:15px;color:#A85A08">Director</div><p style="font-size:15px;color:#4A5878;margin:6px 0 0">युवाओं को रोज़गार योग्य कौशल से सशक्त बनाने के लिए कार्यरत।</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN FORM -->
+<section id="join">
+  <div class="w sec">
+    <h2 class="h2">Join the Mission</h2>
+    <p class="sub">आप जुड़ें और बेरोज़गार साथियों को जोड़ें। सदस्यता अभियान शुरू है, अपनी जानकारी भरें और हमारी टीम WhatsApp पर आपसे संपर्क करेगी।</p>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:4px 18px">
+      <div><label class="fl" for="f-name">Full Name</label><input id="f-name" placeholder="Name" autocomplete="name"><div class="err" id="e-name"></div></div>
+      <div><label class="fl" for="f-mob">Mobile Number</label><input id="f-mob" inputmode="numeric" maxlength="10" placeholder="Number" autocomplete="tel"><div class="err" id="e-mob"></div></div>
+      <div><label class="fl" for="f-dist">District</label><input id="f-dist" placeholder="District"><div class="err" id="e-dist"></div></div>
+      <div><label class="fl" for="f-int">I want to</label>
+        <select id="f-int">
+          <option>Get skill training</option>
+          <option>Work from home (Har Ghar Rozgar)</option>
+          <option>Join a women's self-help group</option>
+          <option>Get help with a government scheme or loan</option>
+          <option>Register on Sewayojan / NCS / GeM</option>
+          <option>Become a volunteer</option>
+        </select><div class="err"></div></div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:6px">
+      <button class="btn btn-o" id="f-send" type="button"><i class="ti ti-brand-whatsapp"></i>Send on WhatsApp</button>
+      <a class="btn" href="tel:+917525995699"><i class="ti ti-phone"></i>Call Us</a>
+    </div>
+    <div id="f-ok" role="status" style="font-size:15px;color:#1E6B34;margin-top:10px"></div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="w" style="padding-top:2.5rem;padding-bottom:1.5rem">
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px">
+      <div>
+        <img src="image/logo.png" alt="ABS logo" style="width:64px;height:64px;object-fit:contain;background:#fff;border-radius:50%;padding:2px">
+        <div style="font-size:19px;font-weight:600;color:#fff;margin-top:6px">ABS Seva Skill Foundation</div>
+        <div>आज़ाद भारत संकल्प सेवा स्किल फाउंडेशन की एक पहल।</div>
+        <div>कॉरपोरेट कार्य मंत्रालय, भारत सरकार द्वारा मान्यता प्राप्त सेक्शन 8 कंपनी।</div>
+        <div class="hi" style="font-size:22px;color:#F7A84A;margin-top:8px">सेवा ही संकल्प</div>
+      </div>
+      <div>
+        <div style="color:#fff;font-weight:600;margin-bottom:6px">Contact</div>
+        <div><i class="ti ti-phone"></i>  75259 95699 (Call / WhatsApp)</div>
+        <div><i class="ti ti-mail"></i>  abssewaskillfoundation@gmail.com</div>
+        <div><i class="ti ti-map-pin"></i> Daulatpur, Tehsil-Puranpur, District-Pilibhit, Uttar Pradesh
+(262122)</div>
+        <div>CIN: [U85500UP2026NPL252924 ]</div>
+      </div>
+      <div>
+        <div style="color:#fff;font-weight:600;margin-bottom:6px">Directors</div>
+        <div>Mr. Vimlesh Kumar (Founder and Director)</div>
+        <div>Mrs. Laxmi (Director)</div>
+        <div>Mr. Vikash Singh (Director)</div>
+      </div>
+    </div>
+    <div style="border-top:1px solid #2C4C8C;margin-top:22px;padding-top:14px; text-align: center; font-size:14px">© 2026 ABS Seva Skill Foundation. यह ABS सेवा स्किल फाउंडेशन की निजी सामाजिक पहल है। सदस्यता स्वैच्छिक है।</div>
+  </div>
+</footer>
+
+<a class="wa-float" id="wa-float" href="https://wa.me/917525995699" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+
+<script>
+var F={name:document.getElementById('f-name'),mob:document.getElementById('f-mob'),dist:document.getElementById('f-dist')};
+Object.keys(F).forEach(function(k){F[k].addEventListener('input',function(){document.getElementById('e-'+k).textContent='';});});
+document.getElementById('f-send').addEventListener('click',function(){
+  var ok=true,n=F.name.value.trim(),m=F.mob.value.trim(),d=F.dist.value.trim(),i=document.getElementById('f-int').value;
+  if(!n){document.getElementById('e-name').textContent='Enter your name';ok=false;}
+  if(!/^[6-9]\d{9}$/.test(m)){document.getElementById('e-mob').textContent='Enter a valid 10-digit mobile number';ok=false;}
+  if(!d){document.getElementById('e-dist').textContent='Enter your district';ok=false;}
+  if(!ok)return;
+  var msg='Namaste ABS Seva Skill Foundation.\n'+'Name: '+n+', \n'+'Mobile: '+m+', \n'+'District: '+d+', \n'+'I want to: '+i;
+
+  if(window.fbq){fbq('track','Lead');}
+  window.open('https://wa.me/917525995699?text='+encodeURIComponent(msg),'_blank');
+  document.getElementById('f-ok').textContent='WhatsApp is open with your details. Send the message to complete your registration.';
+});
+document.getElementById('wa-float').addEventListener('click',function(){if(window.fbq){fbq('track','Contact');}});
+</script>
+</body>
+</html>
